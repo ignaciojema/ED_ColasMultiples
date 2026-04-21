@@ -1,6 +1,19 @@
-# Colas Múltiples
-Repositorio dedicado a un proyecto para el diseño y manejo de múltiples colas de un mismo tipo en Pascal. 
-Se trata de un ejercicio temático sobre la cola de pacientes de las urgencias de un hospital. Separa a los pacientes atendiendo a su gravedad.
-Para hacerlo escalable se utiliza un array de distintas colas. 
-El programa está pensado para que pueda realizar las mismas operaciones sobre el array de colas sin importar el número total de colas.
+# Multiple queue management in Pascal
 
+
+This project implements a system for managing multiple queues over a shared
+storage structure, focusing on efficient space usage and correct queue operations.
+
+## Context
+
+Developed as an academic exercise for "Estructuras de datos", going a bit further into understanding classic data structures and low level memory management.
+
+
+## Features
+
+- Multiple independent queues
+- Enqueue / dequeue operations
+
+## Language
+
+- Pascal
